@@ -13,7 +13,7 @@ public class FileProcess {
     public List<Double> getDoubles() { return doubles; }
     public List<String> getStrings() { return strings; }
 
-    // метод для получения списка целыха чисел в виде string
+    // метод для получения списка целых чисел в виде string
     public List<String> getLongsAsString() {
         if (longs == null)
         {
