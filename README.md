@@ -18,7 +18,8 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 После успешного выполнения появится папка target, содержащая файл "util.jar".
 Запуск программы осуществляеся через cmd
 java -jar target/util.jar ОПЦИИ ИМЕНА_входных_файлов
-Пример: java -jar target/util.jar -a -f -p sample- in1.txt in2.txt
+Пример: java -jar target/util.jar -a -f -p sample- in1.txt in2.txt(важно писать target/util.jar, иначе не найдется исполняемый jar файл.)
+Либо мы перемещаемся в папку target, так как maven собирает проект в эту папку!
 Доступные опции:
 -o (path) Задать путь для выходных файлов (по умолчанию создается папка в корне с названием results).
 -p (prefix) Добавить префикс к именам выходных файлов (например:"out_").
